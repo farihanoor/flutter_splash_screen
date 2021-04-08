@@ -49,7 +49,8 @@ class HomeScreen extends StatelessWidget {
           //
           Container(
             decoration: BoxDecoration(
-              border: Border.all(color: mDarkBrown),
+              border: Border.all(color: mDarkBrown, width: 2.0),
+              
               color: Colors.white,
             ),
           //the container is continued to include
@@ -64,15 +65,17 @@ class HomeScreen extends StatelessWidget {
             width: double.infinity,
             child: Text(
               'Get the best coffee\nin town!',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: mPrimaryTextColor,
-                fontSize: 25,
-                fontWeight: FontWeight.w500,
-              ),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: mPrimaryTextColor,
+                  fontSize: 25,
+                  fontWeight: FontWeight.w500,
+                ),
             ),
           ),
-         
+         //
+         //separated the Login and Register buttons as an independent widget
+         //
           LoginAndRegister(),
         ],
       ),
@@ -80,6 +83,9 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
+//
+//extracted a widget on container
+//
 class LoginAndRegister extends StatelessWidget {
   const LoginAndRegister({
     Key key,
@@ -95,12 +101,20 @@ class LoginAndRegister extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Expanded(
+            //
+            //FlatButton is depracated in Flutter 2.0+ and exchanged with TextButton.
             child: FlatButton(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(36),
-              ),
-              color: mDarkBrown,
+              //
+              //shape of the 'Register' button is designed
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              color: mDarkBrown, //color of the button
+              //
+              //onPressed takes a empty function ?????
               onPressed: () {},
+              //
+              //again the container is added to write the 'Register' text
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 alignment: Alignment.center,
@@ -115,10 +129,12 @@ class LoginAndRegister extends StatelessWidget {
             ),
           ),
           
+          //
+          //the 'Login' button is designed in a similar fashion
           Expanded(
             child: FlatButton(
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(36),
+                borderRadius: BorderRadius.circular(20),
                 side: BorderSide(color: mDarkBrown),
               ),
               color: mDarkBrown,
