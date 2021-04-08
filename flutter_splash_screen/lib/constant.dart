@@ -15,3 +15,5 @@ Color mFacebookColor = Color(0xFF4277bc);
 Color mLightBrown = Color(0xFFFFF8E8);
 
 Color mDarkBrown = Color(0xFF6F4F38);
+
+Color mBrown = Color(0xFFA46E4A);

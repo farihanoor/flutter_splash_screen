@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constant.dart';
+import '../../constant.dart';
 
 
 
@@ -16,7 +16,7 @@ class SliderDot extends StatelessWidget {
               color: Colors.white,
               
             ),
-      padding: const EdgeInsets.symmetric(vertical: 26.5),
+      padding: const EdgeInsets.symmetric(vertical: 30),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[

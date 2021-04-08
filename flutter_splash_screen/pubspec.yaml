@@ -53,6 +53,7 @@ flutter:
     - assets/images/coffeeBackgroundPlain.png
     - assets/images/coffeeStand.png
     - assets/images/coffeeStandEdited.png
+    - assets/images/icon-facebook.svg
 
   #   - images/a_dot_ham.jpeg
 
