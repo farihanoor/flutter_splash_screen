@@ -7,27 +7,22 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       appBar: AppBar(
+         elevation: 0,
+         
+         backgroundColor: mLightBrown,
+      ),
+      //extendBodyBehindAppBar: false,
       body: Column(
         children: <Widget>[
-          Image.asset('assets/images/coffeeStand.png'),
-          Container(
-            decoration: BoxDecoration(
-            color: Colors.white,
-          
-          ),
-            
-                    //margin: EdgeInsets.all(5),
-                    
-          ),
-                    
+          Image.asset('assets/images/coffeeStand.png'),          
           SliderDot(),
-          
           Container(
             decoration: BoxDecoration(
+              border: Border.all(color: mDarkBrown),
             color: Colors.white,
-          
           ),
-          padding: const EdgeInsets.symmetric(horizontal: 65, vertical: 20),   
+          padding: const EdgeInsets.symmetric(horizontal: 65, vertical: 15),   
             width: double.infinity,
            // margin: EdgeInsets.all(5),
           child: Text(
@@ -35,7 +30,7 @@ class HomeScreen extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               color: mPrimaryTextColor,
-              fontSize: 32,
+              fontSize: 25,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -59,7 +54,7 @@ class LoginAndRegister extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
       ),
-      padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 30),
+      padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 35),
       child: Row(
         children: <Widget>[
           Expanded(
@@ -67,7 +62,7 @@ class LoginAndRegister extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(36),
               ),
-              color: mPrimaryColor,
+              color: mDarkBrown,
               onPressed: () {},
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 16),
@@ -87,9 +82,9 @@ class LoginAndRegister extends StatelessWidget {
             child: FlatButton(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(36),
-                side: BorderSide(color: mPrimaryColor),
+                side: BorderSide(color: mDarkBrown),
               ),
-              color: mPrimaryColor,
+              color: mDarkBrown,
               onPressed: () {},
               child: Container(
                 padding: const EdgeInsets.symmetric(vertical: 16),
