@@ -32,7 +32,7 @@ Step 3: In pubspec.yaml file, import the images. For example:
 
 Sample Images of the project:
 ----------------------------------------------------------------------
-<img src="https://github.com/farihanoor/flutter_splash_screen/blob/main/flutter_splash_screen/readmeAssets/img1.png" width="100" height="100"> 
+<img src="https://github.com/farihanoor/flutter_splash_screen/blob/main/flutter_splash_screen/readmeAssets/img1.png" width="480" height="720"> 
 ![Image description](https://github.com/farihanoor/flutter_splash_screen/blob/main/flutter_splash_screen/readmeAssets/img1.png =1000x)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ----------------------------------------------------------------------
