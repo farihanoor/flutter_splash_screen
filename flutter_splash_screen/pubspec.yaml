@@ -51,6 +51,7 @@ flutter:
     - assets/images/coffeeLogoEdited.png
     - assets/images/logo.svg
     - assets/images/coffeeBackgroundPlain.png
+    - assets/images/coffeeStand.png
 
   #   - images/a_dot_ham.jpeg
 
