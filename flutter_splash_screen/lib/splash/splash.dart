@@ -8,11 +8,11 @@ class SplashScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets\images\coffeeBackground.png'),
+            image: AssetImage('assets/images/coffeeBackground.png'),
           ),
         ),
         child: Center(
-          child: SvgPicture.asset('assets\images\coffeelogo.jpg'),
+          child: SvgPicture.asset('assets/images/coffeeLogoEdited.png'),
         ),
       ),
     );
