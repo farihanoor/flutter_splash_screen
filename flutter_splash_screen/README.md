@@ -30,8 +30,6 @@ Step 3: In pubspec.yaml file, import the images. For example:
  Step 5: The buttons in the home.dart does not work. This is just a splash screen template.
 
 
-## Running the tests
-
 Sample Images of the project:
 ----------------------------------------------------------------------
 ![Image description](https://github.com/farihanoor/flutter_splash_screen/flutter_splash_screen/blob/readmeAssets/img1.png)
