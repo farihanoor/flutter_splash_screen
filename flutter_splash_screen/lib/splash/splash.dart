@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     // TODO: implement initState
-    var d = Duration(seconds: 3);
+    var d = Duration(seconds: 4);
     //delay 3 seconds to do something
     Future.delayed(d, () {
       Navigator.pushAndRemoveUntil(
