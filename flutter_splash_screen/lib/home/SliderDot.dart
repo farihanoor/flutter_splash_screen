@@ -12,11 +12,16 @@ class SliderDot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 20),
+      decoration: BoxDecoration(
+              color: Colors.white,
+              
+            ),
+      padding: const EdgeInsets.symmetric(vertical: 26.5),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
+            
             margin: const EdgeInsets.symmetric(horizontal: 2),
             width: 6,
             height: 6,
